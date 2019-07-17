@@ -9,8 +9,19 @@ Auto deploy source with Laravel Envoy
 
 - export PATH="$PATH:~/.composer/vendor/bin"
 - source ~/.bashrc
+- edit $gitRepo
 
-Create file Envoy.blade.php
+#Update virtual host: add *current*
+
+-Nginx:
+
+        root /home/tuanpham.dev/public_html/current/public;
+	
+- Apache: 
+	 DocumentRoot /www/tuanpham.dev/public_html/current/public
+
+
+#Create file Envoy.blade.php
 
 ```@servers(['local' => '127.0.0.1', 'server' => ['user@192.168.1.1']])
 
@@ -54,7 +65,7 @@ Create file Envoy.blade.php
     echo "All symlinks share have been set"
 
     @if (!file_exists('share/.env'))
-        cp /home/tuanpham.dev/public_html/.env "share/.env"
+        cp .env "share/.env"
     @endif
 
     ln -nfs {{ $path }}/share/.env {{ $release }}/.env
