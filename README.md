@@ -21,6 +21,10 @@ Auto deploy source with Laravel Envoy
 
 	``DocumentRoot /www/tuanpham.dev/public_html/current/public``
 
+# Deploy
+
+``envoy run deploy --branch=master``
+
 
 # Create file Envoy.blade.php
 
@@ -108,10 +112,4 @@ Auto deploy source with Laravel Envoy
 
 @finished
     echo "Finished!!!!";
-@endfinished```
-
-
-# Deploy
-
-``envoy run deploy --branch=master``
-
+@endfinished
