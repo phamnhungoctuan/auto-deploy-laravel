@@ -109,3 +109,9 @@ Auto deploy source with Laravel Envoy
 @finished
     echo "Finished!!!!";
 @endfinished```
+
+
+# Deploy
+
+``envoy run deploy --branch=master``
+
