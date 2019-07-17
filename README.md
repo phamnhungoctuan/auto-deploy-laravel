@@ -11,14 +11,14 @@ Auto deploy source with Laravel Envoy
 - source ~/.bashrc
 - edit $gitRepo
 
-#Update virtual host: add *current*
+#Update virtual host: add *current* path
 
 -Nginx:
 
         root /home/tuanpham.dev/public_html/current/public;
 	
-- Apache: 
-	 DocumentRoot /www/tuanpham.dev/public_html/current/public
+-Apache: 
+	 ``DocumentRoot /www/tuanpham.dev/public_html/current/public``
 
 
 #Create file Envoy.blade.php
