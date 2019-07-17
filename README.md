@@ -13,12 +13,13 @@ Auto deploy source with Laravel Envoy
 
 #Update virtual host: add *current* path
 
--Nginx:
++ Nginx:
 
         root /home/tuanpham.dev/public_html/current/public;
 	
--Apache: 
-	 ``DocumentRoot /www/tuanpham.dev/public_html/current/public``
++ Apache: 
+
+``DocumentRoot /www/tuanpham.dev/public_html/current/public``
 
 
 #Create file Envoy.blade.php
