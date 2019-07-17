@@ -7,13 +7,12 @@ Auto deploy source with Laravel Envoy
 
 #Update env PATH
 
-``
 - export PATH="$PATH:~/.composer/vendor/bin"
-- source ~/.bashrc``
+- source ~/.bashrc
 
 Create file Envoy.blade.php
 
-``@servers(['local' => '127.0.0.1', 'server' => ['user@192.168.1.1']])
+```@servers(['local' => '127.0.0.1', 'server' => ['user@192.168.1.1']])
 
 @setup
     $path = __DIR__;
@@ -97,4 +96,4 @@ Create file Envoy.blade.php
 
 @finished
     echo "Finished!!!!";
-@endfinished``
+@endfinished```
