@@ -9,7 +9,8 @@ Auto deploy source with Laravel Envoy
 
 - export PATH="$PATH:~/.composer/vendor/bin"
 - source ~/.bashrc
-- edit $gitRepo
+- edit $gitRepo in Envoy.blade.php
+- Move Envoy.blade.php to laravel source (not public path)
 
 # Update virtual host: add *current* path
 
