@@ -1,5 +1,5 @@
-# auto-deploy-laravel
-Auto deploy source with Laravel Envoy
+# Auto deploy Laravel source with Envoy 
+Laravel Envoy provides a clean, minimal syntax for defining common tasks you run on your remote servers. Using Blade style syntax, you can easily setup tasks for deployment, Artisan commands, and more. Currently, Envoy only supports the Mac and Linux operating systems.
 
 
 # Required:
