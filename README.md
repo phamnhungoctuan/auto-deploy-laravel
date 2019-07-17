@@ -1,6 +1,12 @@
 # auto-deploy-laravel
 Auto deploy source with Laravel Envoy
 
+
+# Required:
++ Node
++ Yarn
++ Composer
+
 # Install Envoy:
 
 ```composer global require laravel/envoy```
