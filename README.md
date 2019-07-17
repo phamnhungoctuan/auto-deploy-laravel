@@ -7,8 +7,9 @@ Auto deploy source with Laravel Envoy
 
 #Update env PATH
 
-``export PATH="$PATH:~/.composer/vendor/bin"
-source ~/.bashrc``
+```
+- export PATH="$PATH:~/.composer/vendor/bin"
+- source ~/.bashrc```
 
 Create file Envoy.blade.php
 
