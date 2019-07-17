@@ -5,13 +5,13 @@ Auto deploy source with Laravel Envoy
 
 ```composer global require laravel/envoy```
 
-#Update env PATH
+# Update env PATH
 
 - export PATH="$PATH:~/.composer/vendor/bin"
 - source ~/.bashrc
 - edit $gitRepo
 
-#Update virtual host: add *current* path
+# Update virtual host: add *current* path
 
 + Nginx:
 
@@ -19,10 +19,10 @@ Auto deploy source with Laravel Envoy
 	
 + Apache: 
 
-``DocumentRoot /www/tuanpham.dev/public_html/current/public``
+	``DocumentRoot /www/tuanpham.dev/public_html/current/public``
 
 
-#Create file Envoy.blade.php
+# Create file Envoy.blade.php
 
 ```@servers(['local' => '127.0.0.1', 'server' => ['user@192.168.1.1']])
 
